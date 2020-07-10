@@ -465,6 +465,14 @@ a {
 	margin: 5px 0px 0px 0px;
 	color: #c5a37e;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
 .column__input input:focus {
 	background: rgba(64, 64, 64, 0.1);
 }
